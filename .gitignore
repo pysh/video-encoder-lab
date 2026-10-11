@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# --- Виртуальные окружения ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Инструменты ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Артефакты запуска ---
+.output/
+.temp/
+Logs/
+*.log
+
+# --- Внешние утилиты (бинарники не хранятся в репозитории) ---
+Tools/*.exe
+Tools/*.dll
+Tools/*.pdb
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+desktop.ini
